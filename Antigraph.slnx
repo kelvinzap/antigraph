@@ -1,0 +1,13 @@
+<Solution>
+  <Folder Name="/src/" />
+  <Folder Name="/src/Ledger/">
+    <Project Path="src/Ledger/Antigraph.Ledger.Api/Antigraph.Ledger.Api.csproj" />
+    <Project Path="src/Ledger/Antigraph.Ledger.Consumer/Antigraph.Ledger.Consumer.csproj" />
+    <Project Path="src/Ledger/Antigraph.Ledger.Domain/Antigraph.Ledger.Domain.csproj" />
+    <Project Path="src/Ledger/Antigraph.Ledger.Infrastructure/Antigraph.Ledger.Infrastructure.csproj" />
+  </Folder>
+  <Folder Name="/tests/" />
+  <Folder Name="/tests/Ledger/">
+    <Project Path="tests/Ledger/Antigraph.Ledger.Domain.Tests/Antigraph.Ledger.Domain.Tests.csproj" />
+  </Folder>
+</Solution>

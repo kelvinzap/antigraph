@@ -10,7 +10,7 @@ public readonly record struct Money(long MinorUnits, Currency Currency)
         {
             throw new ArgumentException("Cannot add Money with different currencies.");
         }
-        return new Money(m1.MinorUnits + m2.MinorUnits, m1.Currency);
+        return new Money(checked(m1.MinorUnits + m2.MinorUnits), m1.Currency);
     }
 
     public static Money operator -(Money value) => new(-value.MinorUnits, value.Currency);
